@@ -1,0 +1,208 @@
+
+.body
+{
+    font-family: 'DM Mono', monospace;
+}
+.cards{
+    list-style: none;
+    padding :40px;  
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+    border-image: url('')30 round;
+    background-color: transparent;
+    background-size: cover;
+    font-family: 'DM Mono', monospace;
+    text-transform: uppercase;
+}
+.card1
+{
+    list-style: none;
+    padding :40px;  
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+   
+    background-color:rgba(118, 202, 250, 0.966);
+    background-size: cover;
+    font-family: 'DM Mono', monospace;
+    text-transform: uppercase;
+}
+
+
+
+.card-pop{
+    list-style: none;
+    padding :40px;
+    background-color: #00000069;
+    
+    opacity: 0.95;
+    color: rgb(0, 0, 0);
+    text-align: center;  
+    font-family: 'DM Mono', monospace;
+    font-size: 25px;
+    font-weight: bolder;
+    
+    
+}
+
+#pokemones{
+    padding-inline-start: 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap:  20px;
+
+}
+
+.cards-titles{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+.cards-subtitle{
+    font-weight: lighter;
+    color: #858785;
+    margin-top: 5px;
+}
+.cards-image
+{
+    height: 350px;
+}
+
+.titulo{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 53px;
+    margin-top: 0px;
+}
+
+.cards:hover{
+    animation: rebota 1.5s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    
+    cursor: pointer;
+    
+}
+
+@keyframes rebota
+{
+    20%{
+        transform: translateY(-30px);
+    }
+    40%{
+        transform: translateY(0px);
+    }
+    60%{
+        transform: translateY(-30px);
+    }
+    80%{
+        transform: translateY(-0px);
+    }
+
+}
+
+.popup
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-color:rgba(113, 202, 250, 0.664);
+    background-size: cover;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#closebtn
+{
+    
+    top:300px;
+    right: 10px;
+}
+
+button
+{
+    background-color: black;
+    padding: 10px 20px;
+    border: none ;
+    color: white;
+    border-radius: 3px;
+    transition: transform 100ms;
+}
+
+button :hover
+{
+    cursor: pointer;
+    transform: translateY(-1px);
+    box-shadow: rgb(0, 0, 0);
+}
+
+#jumbotron
+{
+    background-color: rgb(218, 154, 154);
+    font-family: 'Oswald', sans-serif;
+}
+nav
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+header {
+    background: url("") no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+  .header .navbar {
+    background-image: url("https://i.imgur.com/3iFHV0m.png?1");
+    background-size: cover;
+    background-color: transparent !important;
+  }
+
+  .jumbotron {
+    background-image: url("https://i.imgur.com/3iFHV0m.png?1");
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Oswald', sans-serif;
+  }
+
+
+.bg{
+    background-image: url("https://i.imgur.com/3iFHV0m.png?1");
+    background-size: cover;
+}
+
+.poke{
+    width: 25px;
+    margin-bottom: 5px;
+}
+
+.fuente{
+    font-family: 'Oswald', sans-serif;
+    font-size: 500px;
+    font-weight: bolder;
+}
+
+.gif
+{
+    background-image: url('https://media1.giphy.com/media/Hw7O9Np7JpXK8/source.gif');
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    
+}
+
+.gif2
+{
+    background-image: url('https://lh3.googleusercontent.com/proxy/2KNune13xL84MtMduoW7v3xPASMNbt29ILXJPjcJ7Nlw2I0hZUISUsbSnj1LDhaGpgpTzYTxhW7yILsosFJOEfE6e5bMe_akHdiWH54');
+    background-size: cover;
+    height: 200px;
+    width: 250px;
+    
+}
+a:hover {
+    color: #F42B03;
+  }
+
